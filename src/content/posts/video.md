@@ -1,7 +1,7 @@
 ---
-title:宠物小精灵剧场版ED-Tweedia
-published: 2023-03-20
-description:  宠物小精灵剧场版ED-Tweedia.
+title: Include Video in the Posts
+published: 2023-08-01
+description: This post demonstrates how to include embedded video in a blog post.
 tags: [Example, Video]
 category: Examples
 draft: false
