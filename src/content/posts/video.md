@@ -1,7 +1,7 @@
 ---
-title: Include Video in the Posts
-published: 2023-08-01
-description: This post demonstrates how to include embedded video in a blog post.
+title:宠物小精灵剧场版ED《Tweedia》
+published: 2023-03-20
+description:  宠物小精灵剧场版ED《Tweedia》.
 tags: [Example, Video]
 category: Examples
 draft: false
@@ -25,4 +25,4 @@ published: 2023-10-19
 
 ## Bilibili
 
-<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1fK4y1s7Qf&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1kg4y1s77n&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
