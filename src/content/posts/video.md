@@ -1,7 +1,7 @@
 ---
-title:宠物小精灵剧场版ED《Tweedia》
+title:宠物小精灵剧场版ED-Tweedia
 published: 2023-03-20
-description:  宠物小精灵剧场版ED《Tweedia》.
+description:  宠物小精灵剧场版ED-Tweedia.
 tags: [Example, Video]
 category: Examples
 draft: false
