@@ -59,6 +59,7 @@ SLAVEOF 127.0.0.1 7003
  sudo firewall-cmd --zone=public --add-port=7001/tcp --permanent
  sudo firewall-cmd --zone=public --add-port=7002/tcp --permanent
  sudo firewall-cmd --zone=public --add-port=7003/tcp --permanent
+sudo firewall-cmd --reload
 ```
 
 ## SPRINGBOOT REDIS 配置
