@@ -1,6 +1,6 @@
 ---
 title: 基于Docker安装Elasticsearch
-published: 2025-01-07
+published: 2025-01-08
 description: This post demonstrates how to include embedded video in a blog post.
 tags: [Elasticsearch]
 category: Linux
@@ -11,7 +11,7 @@ draft: false
 ```yaml
 ---
 title: 基于Docker安装Elasticsearch 
-published: 2025-01-07
+published: 2025-01-08
 
 ---
 
