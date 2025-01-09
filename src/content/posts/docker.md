@@ -1,6 +1,6 @@
 ---
 title: docker uninstall and install
-published: 2025-01-07
+published: 2025-01-08
 description: This post demonstrates how to include embedded video in a blog post.
 tags: [docker]
 category: Linux
@@ -12,7 +12,7 @@ Just copy the embed code from YouTube or other platforms, and paste it in the ma
 ```yaml
 ---
 title: docker 
-published: 2025-01-07
+published: 2025-01-08
 
 ---
 
