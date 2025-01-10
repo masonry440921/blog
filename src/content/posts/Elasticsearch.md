@@ -56,7 +56,7 @@ elasticsearch:8.6.0
 ```
 
 
-### 因为需要部署kibana容器，因此需要让es和kibana容器互联。
+### 不要安全验证不推荐
 ```
 [root@bogon howlong]# docker exec -it es /bin/bash #先进入es容器
 elasticsearch@6b64658d77d5:~$ cd config
@@ -87,7 +87,7 @@ kibana:8.6.0
 
 ### 测试Kibana是否安装成功
 ```
-http://192.168.27.129:5601
+http://ip:5601
 ```
 
 ### 注意：安装IK分词器的版本，必须和Elasticsearch的版本一致，上文安装的是Elasticsearch 8.6.0的，所以接下来安装的IK分词器版本是8.6.0
