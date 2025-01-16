@@ -7,7 +7,7 @@ category: Examples
 draft: false
 ---
 
-哨兵模式部署redis.
+Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.
 
 ```yaml
 ---
