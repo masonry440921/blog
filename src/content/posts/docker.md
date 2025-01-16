@@ -7,7 +7,7 @@ category: Linux
 draft: false
 ---
 
-Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.
+docker 卸载安装，需要服务器端渲染&#x1F60F;.
 
 ```yaml
 ---
