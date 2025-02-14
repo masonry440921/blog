@@ -1,12 +1,35 @@
-            - name: Astro Deploy
-  # You may pin to the exact commit or the version.
-  # uses: withastro/action@acfe56dffc635abfb9506c77d51ce097030360d1
-  uses: withastro/action@v2.0.0
-  with:
-    # The node version to use
-    node-version: # optional, default is 20
-    # You may specify your preferred package manager (one of `npm | yarn | pnpm | bun` and an optional `@<version>` tag). Otherwise, the package manager will be automatically detected.
-    package-manager: # optional, default is 
-    # Path of the directory containing your site
-    path: # optional, default is .
-          
+name: Build and Deploy with Astro
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20 # 指定 Node.js 版本
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build with Astro
+        uses: withastro/action@v2.0.0
+        with:
+          # 可选：指定 Node.js 版本（如果与 setup-node 不同）
+          node-version: 20
+          # 可选：指定包管理器（如 npm、yarn、pnpm、bun）
+          package-manager: npm
+          # 可选：指定站点目录路径
+          path: .
+
+      - name: Deploy
+        run: echo "Deploying..."
